@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01363e6701b64c87bf1e48c8c1f2a826 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_01363e6701b64c87bf1e48c8c1f2a826" ></div>
+        
+</body>
+<script>    
+    
+            var map_01363e6701b64c87bf1e48c8c1f2a826 = L.map(
+                "map_01363e6701b64c87bf1e48c8c1f2a826",
+                {
+                    center: [41.9028, 12.4964],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8e672951283b40c9b07a01da6f00b315 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+            var circle_9a84a5bc2bc14c50a2a0317eb9756e03 = L.circle(
+                [42.35122196, 13.39843823],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15325, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_6f0381f0c2b24039bd15dee1cf1243de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_705459141e5c4c65b289f2d2dde1e880 = $(`<div id="html_705459141e5c4c65b289f2d2dde1e880" style="width: 100.0%; height: 100.0%;">Regione:Abruzzo  Ricoverati con Sintomi:613</div>`)[0];
+            popup_6f0381f0c2b24039bd15dee1cf1243de.setContent(html_705459141e5c4c65b289f2d2dde1e880);
+        
+
+        circle_9a84a5bc2bc14c50a2a0317eb9756e03.bindPopup(popup_6f0381f0c2b24039bd15dee1cf1243de)
+        ;
+
+        
+    
+    
+            var circle_e22d0455a14f4b229eed3363f8396775 = L.circle(
+                [40.63947052, 15.80514834],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3950, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_dc62835c757c404da125ef0cfbf3b395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_088984f19bba4d5ca221eac0cfe2b130 = $(`<div id="html_088984f19bba4d5ca221eac0cfe2b130" style="width: 100.0%; height: 100.0%;">Regione:Basilicata  Ricoverati con Sintomi:158</div>`)[0];
+            popup_dc62835c757c404da125ef0cfbf3b395.setContent(html_088984f19bba4d5ca221eac0cfe2b130);
+        
+
+        circle_e22d0455a14f4b229eed3363f8396775.bindPopup(popup_dc62835c757c404da125ef0cfbf3b395)
+        ;
+
+        
+    
+    
+            var circle_c31f393eb0ff46cfa235ee253b5eeee9 = L.circle(
+                [38.90597598, 16.59440194],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9425, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_bfd2d802fb524c0088e270b4e033328c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f948c58404da4491a1502124a7e9c3b3 = $(`<div id="html_f948c58404da4491a1502124a7e9c3b3" style="width: 100.0%; height: 100.0%;">Regione:Calabria  Ricoverati con Sintomi:377</div>`)[0];
+            popup_bfd2d802fb524c0088e270b4e033328c.setContent(html_f948c58404da4491a1502124a7e9c3b3);
+        
+
+        circle_c31f393eb0ff46cfa235ee253b5eeee9.bindPopup(popup_bfd2d802fb524c0088e270b4e033328c)
+        ;
+
+        
+    
+    
+            var circle_54f80ffa2c0043c7b1f3238a09b99d1f = L.circle(
+                [40.83956555, 14.25084984],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39800, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_f81fd25a976f4782a7d55b6bb39ef7b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65144b00992c4e3fa06d42e16d220014 = $(`<div id="html_65144b00992c4e3fa06d42e16d220014" style="width: 100.0%; height: 100.0%;">Regione:Campania  Ricoverati con Sintomi:1592</div>`)[0];
+            popup_f81fd25a976f4782a7d55b6bb39ef7b0.setContent(html_65144b00992c4e3fa06d42e16d220014);
+        
+
+        circle_54f80ffa2c0043c7b1f3238a09b99d1f.bindPopup(popup_f81fd25a976f4782a7d55b6bb39ef7b0)
+        ;
+
+        
+    
+    
+            var circle_5b5d258283ed4292bc1d3253508ec61c = L.circle(
+                [44.49436681, 11.3417208],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 86050, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_708eb234d59e4009bb0050807dc8725f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ebb867c11214a66b9ed99ae82c4fc30 = $(`<div id="html_2ebb867c11214a66b9ed99ae82c4fc30" style="width: 100.0%; height: 100.0%;">Regione:Emilia-Romagna  Ricoverati con Sintomi:3442</div>`)[0];
+            popup_708eb234d59e4009bb0050807dc8725f.setContent(html_2ebb867c11214a66b9ed99ae82c4fc30);
+        
+
+        circle_5b5d258283ed4292bc1d3253508ec61c.bindPopup(popup_708eb234d59e4009bb0050807dc8725f)
+        ;
+
+        
+    
+    
+            var circle_24a5d37db98847e39af5dc944cc35328 = L.circle(
+                [45.6494354, 13.76813649],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16550, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_d0853a21bdb64724a052eeb8847ac84f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2261323cf1d24ab28add2f2f6029ae1e = $(`<div id="html_2261323cf1d24ab28add2f2f6029ae1e" style="width: 100.0%; height: 100.0%;">Regione:Friuli Venezia Giulia  Ricoverati con Sintomi:662</div>`)[0];
+            popup_d0853a21bdb64724a052eeb8847ac84f.setContent(html_2261323cf1d24ab28add2f2f6029ae1e);
+        
+
+        circle_24a5d37db98847e39af5dc944cc35328.bindPopup(popup_d0853a21bdb64724a052eeb8847ac84f)
+        ;
+
+        
+    
+    
+            var circle_403c1c0fb0794afdb22bc37a5b62c8df = L.circle(
+                [41.89277044, 12.48366722],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 72025, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_43563667591d479f8ea307802d89e0a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1508f3b7ec7d48368f647c89c182be84 = $(`<div id="html_1508f3b7ec7d48368f647c89c182be84" style="width: 100.0%; height: 100.0%;">Regione:Lazio  Ricoverati con Sintomi:2881</div>`)[0];
+            popup_43563667591d479f8ea307802d89e0a8.setContent(html_1508f3b7ec7d48368f647c89c182be84);
+        
+
+        circle_403c1c0fb0794afdb22bc37a5b62c8df.bindPopup(popup_43563667591d479f8ea307802d89e0a8)
+        ;
+
+        
+    
+    
+            var circle_abbebf0a7e974f66812a3f21c4be0d90 = L.circle(
+                [44.41149315, 8.9326992],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15900, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_70e119bc942a4e3992c46203a369c98a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18595bf2830c428ea3ddf136fedc5e51 = $(`<div id="html_18595bf2830c428ea3ddf136fedc5e51" style="width: 100.0%; height: 100.0%;">Regione:Liguria  Ricoverati con Sintomi:636</div>`)[0];
+            popup_70e119bc942a4e3992c46203a369c98a.setContent(html_18595bf2830c428ea3ddf136fedc5e51);
+        
+
+        circle_abbebf0a7e974f66812a3f21c4be0d90.bindPopup(popup_70e119bc942a4e3992c46203a369c98a)
+        ;
+
+        
+    
+    
+            var circle_2fea360c5cc8475784e06f4a8cc17253 = L.circle(
+                [45.46679409, 9.190347404],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 176725, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_1fa76922d11a48f88e1c78ccdcab8e9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7cc59af7fbc4a7a96b8d47df109f529 = $(`<div id="html_f7cc59af7fbc4a7a96b8d47df109f529" style="width: 100.0%; height: 100.0%;">Regione:Lombardia  Ricoverati con Sintomi:7069</div>`)[0];
+            popup_1fa76922d11a48f88e1c78ccdcab8e9a.setContent(html_f7cc59af7fbc4a7a96b8d47df109f529);
+        
+
+        circle_2fea360c5cc8475784e06f4a8cc17253.bindPopup(popup_1fa76922d11a48f88e1c78ccdcab8e9a)
+        ;
+
+        
+    
+    
+            var circle_2310339eb16c428589215ad6f0e2fe7d = L.circle(
+                [43.61675973, 13.5188753],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20150, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_e24be680b367422c94e6c7d569160f2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceb363974468421a826941f72e1efbee = $(`<div id="html_ceb363974468421a826941f72e1efbee" style="width: 100.0%; height: 100.0%;">Regione:Marche  Ricoverati con Sintomi:806</div>`)[0];
+            popup_e24be680b367422c94e6c7d569160f2c.setContent(html_ceb363974468421a826941f72e1efbee);
+        
+
+        circle_2310339eb16c428589215ad6f0e2fe7d.bindPopup(popup_e24be680b367422c94e6c7d569160f2c)
+        ;
+
+        
+    
+    
+            var circle_8124a50114624b99ab0043ca940bb668 = L.circle(
+                [41.55774754, 14.65916051],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1825, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_4c84dbed74a44755be41c0852a74689d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc8f7ccde482487cbd0aefae56c61984 = $(`<div id="html_dc8f7ccde482487cbd0aefae56c61984" style="width: 100.0%; height: 100.0%;">Regione:Molise  Ricoverati con Sintomi:73</div>`)[0];
+            popup_4c84dbed74a44755be41c0852a74689d.setContent(html_dc8f7ccde482487cbd0aefae56c61984);
+        
+
+        circle_8124a50114624b99ab0043ca940bb668.bindPopup(popup_4c84dbed74a44755be41c0852a74689d)
+        ;
+
+        
+    
+    
+            var circle_c1f81bbc67b8483ab32383de542d8532 = L.circle(
+                [46.49933453, 11.35662422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2350, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_37fece98e95548ae8e29ca795ed1da9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3cdfb0e399b47d5967ee5da9dba2b44 = $(`<div id="html_a3cdfb0e399b47d5967ee5da9dba2b44" style="width: 100.0%; height: 100.0%;">Regione:P.A. Bolzano  Ricoverati con Sintomi:94</div>`)[0];
+            popup_37fece98e95548ae8e29ca795ed1da9e.setContent(html_a3cdfb0e399b47d5967ee5da9dba2b44);
+        
+
+        circle_c1f81bbc67b8483ab32383de542d8532.bindPopup(popup_37fece98e95548ae8e29ca795ed1da9e)
+        ;
+
+        
+    
+    
+            var circle_18536eded5f84b138ca626b1f50904a3 = L.circle(
+                [46.06893511, 11.12123097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5150, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_5c5f8914c4f247a78cae791721a1b1cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fef1444f4ee44135891e1f72ad36568d = $(`<div id="html_fef1444f4ee44135891e1f72ad36568d" style="width: 100.0%; height: 100.0%;">Regione:P.A. Trento  Ricoverati con Sintomi:206</div>`)[0];
+            popup_5c5f8914c4f247a78cae791721a1b1cf.setContent(html_fef1444f4ee44135891e1f72ad36568d);
+        
+
+        circle_18536eded5f84b138ca626b1f50904a3.bindPopup(popup_5c5f8914c4f247a78cae791721a1b1cf)
+        ;
+
+        
+    
+    
+            var circle_4afbac91dee947bfae60176cfc41e376 = L.circle(
+                [45.0732745, 7.680687483],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 94400, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_a9a80d70b4b5424a994b061c9bc3f3da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f14892944bc46958e58494fbbc11ccf = $(`<div id="html_8f14892944bc46958e58494fbbc11ccf" style="width: 100.0%; height: 100.0%;">Regione:Piemonte  Ricoverati con Sintomi:3776</div>`)[0];
+            popup_a9a80d70b4b5424a994b061c9bc3f3da.setContent(html_8f14892944bc46958e58494fbbc11ccf);
+        
+
+        circle_4afbac91dee947bfae60176cfc41e376.bindPopup(popup_a9a80d70b4b5424a994b061c9bc3f3da)
+        ;
+
+        
+    
+    
+            var circle_00e01d40b54f471da0b3b56b6d699912 = L.circle(
+                [41.12559576, 16.86736689],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45000, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_da9a74ff3807407890f84f599ff21d43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96928a3a89864cdea71583c8ee8fc639 = $(`<div id="html_96928a3a89864cdea71583c8ee8fc639" style="width: 100.0%; height: 100.0%;">Regione:Puglia  Ricoverati con Sintomi:1800</div>`)[0];
+            popup_da9a74ff3807407890f84f599ff21d43.setContent(html_96928a3a89864cdea71583c8ee8fc639);
+        
+
+        circle_00e01d40b54f471da0b3b56b6d699912.bindPopup(popup_da9a74ff3807407890f84f599ff21d43)
+        ;
+
+        
+    
+    
+            var circle_9cd311c4d47f4c8ea4c467a171f4d4a4 = L.circle(
+                [39.21531192, 9.110616306],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4725, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_2d4d3881b8bf40398085439fb68bacee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f11676115098447aaa67566a90f1d883 = $(`<div id="html_f11676115098447aaa67566a90f1d883" style="width: 100.0%; height: 100.0%;">Regione:Sardegna  Ricoverati con Sintomi:189</div>`)[0];
+            popup_2d4d3881b8bf40398085439fb68bacee.setContent(html_f11676115098447aaa67566a90f1d883);
+        
+
+        circle_9cd311c4d47f4c8ea4c467a171f4d4a4.bindPopup(popup_2d4d3881b8bf40398085439fb68bacee)
+        ;
+
+        
+    
+    
+            var circle_55870ccd82104fc0a5c4209e00683982 = L.circle(
+                [38.11569725, 13.362356699999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21100, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_dbcd9b7368b541fa90d66fa9ba0fdc16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eb8654ebc41474c949c7932c6ecf379 = $(`<div id="html_9eb8654ebc41474c949c7932c6ecf379" style="width: 100.0%; height: 100.0%;">Regione:Sicilia  Ricoverati con Sintomi:844</div>`)[0];
+            popup_dbcd9b7368b541fa90d66fa9ba0fdc16.setContent(html_9eb8654ebc41474c949c7932c6ecf379);
+        
+
+        circle_55870ccd82104fc0a5c4209e00683982.bindPopup(popup_dbcd9b7368b541fa90d66fa9ba0fdc16)
+        ;
+
+        
+    
+    
+            var circle_354d5870f96a4d5a9050fec9cb9cde8b = L.circle(
+                [43.76923077, 11.25588885],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 37625, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_1ca88ee593fa4cb5959f79547d534006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a4500a29a3b41bc9a2a5c3977a802f6 = $(`<div id="html_7a4500a29a3b41bc9a2a5c3977a802f6" style="width: 100.0%; height: 100.0%;">Regione:Toscana  Ricoverati con Sintomi:1505</div>`)[0];
+            popup_1ca88ee593fa4cb5959f79547d534006.setContent(html_7a4500a29a3b41bc9a2a5c3977a802f6);
+        
+
+        circle_354d5870f96a4d5a9050fec9cb9cde8b.bindPopup(popup_1ca88ee593fa4cb5959f79547d534006)
+        ;
+
+        
+    
+    
+            var circle_d6bcbf70f8454dd398bb3be26a9c9c0f = L.circle(
+                [43.10675841, 12.38824698],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9125, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_6f30cf3255ce494c8d256b7db1438628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aff1edeebb0844289e41e2a8dc73f2f5 = $(`<div id="html_aff1edeebb0844289e41e2a8dc73f2f5" style="width: 100.0%; height: 100.0%;">Regione:Umbria  Ricoverati con Sintomi:365</div>`)[0];
+            popup_6f30cf3255ce494c8d256b7db1438628.setContent(html_aff1edeebb0844289e41e2a8dc73f2f5);
+        
+
+        circle_d6bcbf70f8454dd398bb3be26a9c9c0f.bindPopup(popup_6f30cf3255ce494c8d256b7db1438628)
+        ;
+
+        
+    
+    
+            var circle_86a9780e180d4e95b9765f943f68d726 = L.circle(
+                [45.73750286, 7.320149366],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 925, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_e895eb573e6b42a38f19a823178aa1fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b379f894c7f6407ca6fab80b7bb0b2f6 = $(`<div id="html_b379f894c7f6407ca6fab80b7bb0b2f6" style="width: 100.0%; height: 100.0%;">Regione:Valle d'Aosta  Ricoverati con Sintomi:37</div>`)[0];
+            popup_e895eb573e6b42a38f19a823178aa1fc.setContent(html_b379f894c7f6407ca6fab80b7bb0b2f6);
+        
+
+        circle_86a9780e180d4e95b9765f943f68d726.bindPopup(popup_e895eb573e6b42a38f19a823178aa1fc)
+        ;
+
+        
+    
+    
+            var circle_0bff167afe02455a9c582579c62f30f5 = L.circle(
+                [45.43490485, 12.33845213],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39400, "stroke": true, "weight": 3}
+            ).addTo(map_01363e6701b64c87bf1e48c8c1f2a826);
+        
+    
+        var popup_dca69ed323e445efa3a8ab9ef6611d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc0906410487442daad0a02991b45f93 = $(`<div id="html_dc0906410487442daad0a02991b45f93" style="width: 100.0%; height: 100.0%;">Regione:Veneto  Ricoverati con Sintomi:1576</div>`)[0];
+            popup_dca69ed323e445efa3a8ab9ef6611d34.setContent(html_dc0906410487442daad0a02991b45f93);
+        
+
+        circle_0bff167afe02455a9c582579c62f30f5.bindPopup(popup_dca69ed323e445efa3a8ab9ef6611d34)
+        ;
+
+        
+    
+</script>
